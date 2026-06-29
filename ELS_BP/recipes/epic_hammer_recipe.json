@@ -1,0 +1,28 @@
+{
+  "format_version": "1.20.0",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "els:epic_hammer_recipe"
+    },
+    "tags": [ 
+      "crafting_table" 
+    ],
+    "pattern": [
+      "DDD",
+      " N ",
+      " N "
+    ],
+    "key": {
+      "D": {
+        "item": "els:pink_diamond"
+      },
+      "N": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "els:epic_hammer",
+      "count": 1
+    }
+  }
+}

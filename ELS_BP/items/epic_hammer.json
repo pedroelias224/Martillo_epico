@@ -1,0 +1,35 @@
+{
+    "format_version": "1.21.0",
+    "minecraft:item": {
+        "description": {
+            "identifier": "els:epic_hammer",
+            "menu_category": {
+                "category": "equipment",
+                "group": "itemGroup.name.sword"
+            }
+        },
+        "components": {
+            "minecraft:display_name": {
+                "value": "epic hammer"
+            },
+            "minecraft:icon": "els_epic_hammer",
+            "minecraft:max_stack_size": 1,
+            "minecraft:hand_equipped": true,
+            "minecraft:damage": 23,
+            "minecraft:durability": {
+                "max_durability": 2200
+            },
+            "minecraft:digger": {
+                "use_efficiency": true,
+                "destroy_speeds": [
+                    {
+                        "block": {
+                            "tags": "q.any_tag('minecraft:is_pickaxe_item_destructible')"
+                        },
+                        "speed": 14
+                    }
+                ]
+            }
+        }
+    }
+}

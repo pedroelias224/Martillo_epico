@@ -1,0 +1,31 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "els:pink_diamond_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            " D ",
+            "HMH",
+            " D "
+        ],
+        "key": {
+            "D": {
+                "item": "minecraft:diamond"
+            },
+            "H": {
+                "item": "minecraft:iron_ingot"
+            },
+            "M": {
+                "item": "els:soul_item"
+            }
+        },
+        "result": {
+            "item": "els:pink_diamond",
+            "count": 1
+        }
+    }
+}

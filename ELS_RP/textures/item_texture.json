@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "martillo epico",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "els_epic_hammer": {
+      "textures": "textures/items/epic_hammer"
+    },
+    "els_pink_diamond": {
+        "textures": "textures/items/pink_diamond"
+    },
+    "els_soul_item": {
+        "textures": "textures/items/soul_item"
+    }
+  }
+}

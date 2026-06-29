@@ -1,0 +1,25 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:recipe_shaped": {
+        "description": {
+            "identifier": "els:soul_item_recipe"
+        },
+        "tags": [
+            "crafting_table"
+        ],
+        "pattern": [
+            "   ",
+            " A ",
+            "   "
+        ],
+        "key": {
+            "A": {
+                "item": "minecraft:soul_sand"
+            }
+        },
+        "result": {
+            "item": "els:soul_item",
+            "count": 1
+        }
+    }
+}
